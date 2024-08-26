@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidProjectJCBased</string>
+    <string name="title_activity_filter_text">FilterTextActivity</string>
+</resources>
