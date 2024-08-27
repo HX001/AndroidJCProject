@@ -54,6 +54,7 @@ fun MyApp() {
             arguments = listOf(
                 navArgument("url") {
                     type = NavType.StringType
+                    defaultValue = ""
                 }
             )
         ) { backStackEntry ->

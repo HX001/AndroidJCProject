@@ -15,23 +15,27 @@
         android:theme="@style/Theme.AndroidProjectJCBased"
         tools:targetApi="31">
         <activity
+            android:name=".ActivityThree.MainActivityThree"
+            android:exported="true"
+            android:label="@string/title_activity_main_three"
+            android:theme="@style/Theme.AndroidProjectJCBased">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".filterResult.FilterTextActivity"
             android:exported="true"
             android:label="@string/title_activity_filter_text"
-            android:theme="@style/Theme.AndroidProjectJCBased" >
-
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+            android:theme="@style/Theme.AndroidProjectJCBased">
         </activity>
         <activity
             android:name=".SourceCodeWebView.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.AndroidProjectJCBased">
-        </activity>
+            android:theme="@style/Theme.AndroidProjectJCBased" />
     </application>
 
 </manifest>

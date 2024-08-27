@@ -51,11 +51,11 @@ class FilterTextActivity : ComponentActivity() {
                     )
                     Spacer(modifier = Modifier.height(16.dp))
                     if(isSearching) {
-                        Box(modifier = Modifier.fillMaxSize()) {
-                            CircularProgressIndicator(
-                                modifier = Modifier.align(Alignment.Center)
-                            )
-                        }
+//                        Box(modifier = Modifier.fillMaxSize()) {
+//                            CircularProgressIndicator(
+//                                modifier = Modifier.align(Alignment.Center)
+//                            )
+//                        }
                     } else {
                         LazyColumn(
                             modifier = Modifier
