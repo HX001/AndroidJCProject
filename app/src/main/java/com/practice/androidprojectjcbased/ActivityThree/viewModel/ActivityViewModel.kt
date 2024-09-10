@@ -13,6 +13,10 @@ import java.io.IOException
 
 class ActivityViewModel: ViewModel() {
 
+    init {
+        fetchPosts()
+    }
+
     private val TAG = "ActivityViewModel"
 
     private var _searchText = MutableStateFlow("")

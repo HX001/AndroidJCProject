@@ -50,9 +50,9 @@ fun ListScreen(
     viewModel: ActivityViewModel
 ) {
 
-    LaunchedEffect(true) {
-        viewModel.fetchPosts()
-    }
+//    LaunchedEffect(true) {
+//        viewModel.fetchPosts()
+//    }
 
     val photos by viewModel.posts.collectAsState()
     Column(

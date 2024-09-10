@@ -53,6 +53,7 @@ fun InputScreen(
             value = searchText,
             onValueChange = viewModel::onSearchTextChange,
             label = { Text("Enter URL") },
+            singleLine = true,
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(10.dp)
