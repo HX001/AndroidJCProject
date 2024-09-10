@@ -15,10 +15,21 @@
         android:theme="@style/Theme.AndroidProjectJCBased"
         tools:targetApi="31">
         <activity
+            android:name=".Navigation.NavigationWithSerilizedObj.NavWithSerilizedObjActivity"
+            android:exported="true"
+            android:label="@string/title_activity_nav_with_serilized_obj"
+            android:theme="@style/Theme.AndroidProjectJCBased">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".CountWithFlow.CountWithFlowActivity"
             android:exported="true"
             android:label="@string/title_activity_count_with_flow"
-            android:theme="@style/Theme.AndroidProjectJCBased" >
+            android:theme="@style/Theme.AndroidProjectJCBased">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -40,7 +51,7 @@
             android:name=".filterResult.FilterTextActivity"
             android:exported="true"
             android:label="@string/title_activity_filter_text"
-            android:theme="@style/Theme.AndroidProjectJCBased"></activity>
+            android:theme="@style/Theme.AndroidProjectJCBased" />
         <activity
             android:name=".SourceCodeWebView.MainActivity"
             android:exported="true"

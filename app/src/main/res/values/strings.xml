@@ -3,4 +3,5 @@
     <string name="title_activity_filter_text">FilterTextActivity</string>
     <string name="title_activity_main_three">MainActivityThree</string>
     <string name="title_activity_count_with_flow">CountWithFlowActivity</string>
+    <string name="title_activity_nav_with_serilized_obj">NavWithSerilizedObjActivity</string>
 </resources>
